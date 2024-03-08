@@ -3,21 +3,17 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase que representa un contacto en una agenda.
+ */
 class Contacto {
     private String name;
     private List<String> phones;
 
-    public Contacto(String name, String phone) {
-        this.name = name;
-        this.phones = new ArrayList<>();
-        this.phones.add(phone);
-    }
+/**
+ * Constructor de la clase Contacto.
+ *
+ * @param name  Nombre del contacto.
+ * @param phone Número de teléfono del contacto.
+ */
 
-    public String getName() {
-        return this.name;
-    }
-
-    public List<String> getPhones() {
-        return this.phones;
-    }
-}
