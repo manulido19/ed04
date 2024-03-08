@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Clase que representa una agenda de contactos.
  */
-public class Agenda {
+public class Agenda implements AgendaInterface {
     private List<Contacto> contacts; // Lista de Contacto
     /**
      * Constructor de la clase Agenda.
